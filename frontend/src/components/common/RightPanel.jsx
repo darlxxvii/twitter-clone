@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 import RightPanelSkeleton from "../skeletons/RightPanelSkeleton";
 import LoadingSpinner from './LoadingSpinner'
-import useFollow from "../../../hooks/useFollow";
+import useFollow from "../../hooks/useFollow";
+
 const RightPanel = () => {
 	const {data: suggestedUsers, isLoading} = useQuery({
 		queryKey: ["suggestedUsers"],

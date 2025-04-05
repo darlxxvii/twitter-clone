@@ -2,17 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 
-input:-webkit-autofill {
-  background-color: transparent !important;
-  color: white !important;
-  -webkit-box-shadow: 0 0 0px 1000px  inset !important;
-}
 
-input:-webkit-autofill::first-line {
-  color: white !important;
-}
-@layer utilities {
-  .skeleton {
-    @apply bg-gray-700 animate-pulse;
-  }
-}
+
